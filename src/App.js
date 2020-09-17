@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import mainApp from './layout/main';
+import MainApp from './layout/main';
 import Mapa from './components/mapa/Mapa'
 
 function App() {
   return (
-    <mainApp>
+    <MainApp>
       <Mapa/>
-    </mainApp>
+    </MainApp>
   );
   }
 
