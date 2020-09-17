@@ -1,0 +1,15 @@
+.__card-display-root {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    z-index: 100;
+}
+
+.__card-display-title {
+    font-size: 18px;
+}
+
+/* .displayArea{
+    grid-row-start: 2;
+    grid-row-end: 3;
+} */
