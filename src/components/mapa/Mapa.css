@@ -15,8 +15,14 @@
 @media screen and (min-width: 1025px){
     .mapa {
         display: grid;
-        width: 60%; 
+        width: 50%; 
         height: 100vh;
         margin: auto;
+    }
+    .__search-input{
+        min-width: 90%;
+    }
+    .__search-form{
+        width: 90%;
     }
 }

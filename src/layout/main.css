@@ -6,8 +6,7 @@
         "display"
     ;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
-
+    /* grid-template-rows: 3fr; */
     justify-content: center;
     justify-items: center;
 }
@@ -24,4 +23,11 @@
     grid-area: display;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.__search-form{
+    position: fixed;
+}
+.__card-display-root{
+    position: fixed;
 }

@@ -5,6 +5,7 @@
 
 .__search-form{
     display: flex;
+    width: 90%;
     align-items: center;
     justify-content: center;
     height: 3rem;
@@ -12,9 +13,11 @@
 }
 .__search-input{
     height: 100%;
+    min-width: 90%;
     border: var(--search-border);
     border-radius: 0.3rem 0 0 0.3rem  !important;
     padding-left:0.3rem;
+    background-color: #fff;
 }
 
 .__search-input.MuiInput-underline:hover:not(.Mui-disabled):before{
@@ -35,6 +38,7 @@
     border-radius: 0 0.3rem 0.3rem 0 !important;
     height: 100%;
     transition: 0.3s;
+    background-color: #fff !important;
 }
 
 .__search-button:hover{
