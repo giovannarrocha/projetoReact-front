@@ -10,7 +10,6 @@ interface SearchProps {
 
 const Search: React.FC<SearchProps> = ({ procuraEnderecoDestino }) => {
   const [enderecoProcurado, setEnderecoProcurado] = useState("");
-
   return (
     <div className="__search-form">
         <Input
